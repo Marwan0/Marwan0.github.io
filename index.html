@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marwan Ayyad</title>
+<meta name="description" content="Marwan Ayyad, game designer: LinkedIn, YouTube, Facebook and email in one place.">
+<style>
+@font-face { font-family: Lalezar; src: url(fonts/Lalezar-Regular.ttf) format("truetype"); font-display: swap; }
+@font-face { font-family: "Readex Pro"; src: url(fonts/ReadexPro-Variable.ttf) format("truetype"); font-weight: 160 700; font-display: swap; }
+:root { --red: #d7261e; --yellow: #ffd100; --green: #0a7d3b; --blue: #1846a3; --black: #111111; --enamel: #fafaf7; }
+* { box-sizing: border-box; margin: 0; }
+body { background: var(--enamel); color: var(--black); font: 400 18px/1.4 "Readex Pro", system-ui, sans-serif; min-height: 100vh; display: grid; place-items: center; padding: 32px 16px; }
+main { width: min(100%, 460px); display: grid; gap: 14px; }
+h1 { font: 400 clamp(46px, 13vw, 64px)/0.95 Lalezar, Impact, sans-serif; text-transform: uppercase; text-shadow: 4px 4px 0 var(--blue); letter-spacing: .5px; }
+.role { font-size: 20px; font-weight: 500; margin-bottom: 14px; }
+a { display: flex; align-items: center; gap: 14px; padding: 16px 20px 12px; border: 4px solid var(--black); box-shadow: 6px 6px 0 var(--black);
+    font: 400 28px/1 Lalezar, Impact, sans-serif; text-transform: uppercase; text-decoration: none; color: var(--enamel); transition: transform .1s, box-shadow .1s; }
+a:hover, a:focus-visible { transform: translate(3px, 3px); box-shadow: 3px 3px 0 var(--black); }
+a:focus-visible { outline: 4px solid var(--yellow); outline-offset: 4px; }
+a small { margin-left: auto; font: 500 15px/1 "Readex Pro", sans-serif; text-transform: none; opacity: .9; }
+svg { width: 30px; height: 30px; flex: none; margin-top: -4px; }
+.li { background: var(--blue); } .yt { background: var(--red); } .fb { background: var(--green); }
+.mail { background: var(--yellow); color: var(--black); }
+footer { margin-top: 18px; font-size: 15px; }
+@media (prefers-reduced-motion: reduce) { a { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Marwan Ayyad</h1>
+  <p class="role">Game designer · NASA Space Apps Cairo 2026</p>
+  <a class="li" href="https://www.linkedin.com/in/marwan-ayyad">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7V21h-4z"/></svg>
+    LinkedIn <small>in/marwan-ayyad</small></a>
+  <a class="yt" href="https://www.youtube.com/@Marwan-Tech">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1z"/></svg>
+    YouTube <small>@Marwan-Tech</small></a>
+  <a class="fb" href="https://www.facebook.com/marwan.ayyad.7">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8.1v3h2.5V21z"/></svg>
+    Facebook <small>@marwan.ayyad.7</small></a>
+  <a class="mail" href="mailto:marwan_ayad@live.com">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14"/><path d="m3 6 9 7 9-7"/></svg>
+    Email <small>marwan_ayad@live.com</small></a>
+  <footer>Ask me anything about game and simulation design.</footer>
+</main>
+</body>
+</html>
